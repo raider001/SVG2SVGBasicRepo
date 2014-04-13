@@ -4,7 +4,8 @@
 <!--Systematic Software Engineering Ltd. www.systematic.co.uk Copyright 2003 - do not remove-->
 <svg id="SUGPEWDLS-*****" width="400px" height="400px" viewBox="0 0 400 400">
 <g transform="translate(122 86) scale(5.5 5.5)" >
-<path fill="#FFFF815" d=M23.572 36 L4.887 36 C1.629 36 0 34.967 0 32.9 C0 31.474 0.814 30.564 2.443 30.17">
+<svg viewBox="0 0 400 400" id="_0.SUG-EWDLS------" width="400px" height="400px">
+<path style="fill:rgb(255,255,128)" d="M23.572 36 L4.887 36 C1.629 36 0 34.967 0 32.9 C0 31.474 0.814 30.564 2.443 30.17
 			C3.209 29.975 4.574 29.875 6.539 29.875 L24.506 29.875 C27.668 29.875 29.25
 			30.885 29.25 32.9 C29.25 34.967 27.357 36 23.572 36 zM4.762 31 C3.086 31 2.25
 			31.646 2.25 32.938 C2.25 34.231 3.684 34.876 6.555 34.876 L24.274 34.876 C26.09
@@ -14,7 +15,7 @@
 			L13.375 29.875 L13.375 0 zM18.5 14.5 L18.5 12.793 L15.25 12.863 L15.25 14.5
 			zM18.5 6.875 L20.125 6.875 L20.125 22 L18.5 22 z">
 </path>
+</svg>
 
 </g>
 </svg>
-<!-- Converted By SVG2SVGBasic Converter 2014 By Raider00321 -->

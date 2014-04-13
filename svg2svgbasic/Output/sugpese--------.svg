@@ -1,9 +1,11 @@
 <?xml version="1.0"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" >
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" >
 <!--SVG content generated using Symbology Configuration Management System (SCMS)-->
 <!--Systematic Software Engineering Ltd. www.systematic.co.uk Copyright 2003 - do not remove-->
 <svg id="SUGPESE---*****" width="400px" height="400px" viewBox="0 0 400 400">
 <g >
+<g transform="translate(120 107) scale(5 5)">
+<path d="M32.184 21.35 C31.993 21.303 31.127 21.639 29.592 22.358 C28.584 22.792 27.432 23.463
 				26.135 24.376 C21.432 27.497 18.096 31.747 16.127 37.126 C16.031 37.126
 				15.912 37.005 15.768 36.767 C13.991 31.486 10.391 27.091 4.969 23.583 C3.768
 				22.814 2.111 22.047 0 21.277 C-0.049 21.181 -0.049 21.109 0 21.062 C0.527
@@ -13,9 +15,9 @@
 				19.404 C28.751 19.693 29.662 20.127 30.958 20.701 C31.342 20.75 31.75 20.967
 				32.184 21.35 zM28.656 3.631 L27.291 4.563 L25.174 2.27 L20.664 6.817 L16.18
 				2.229 L11.418 6.842 L6.639 1.959 L4.18 4.422 L2.951 3.559 L6.623 0 L11.375
-				4.854 L16.127 0.247 L20.809 4.854 L25.272 0.247 z" fill="#FFFF815"></path>
+				4.854 L16.127 0.247 L20.809 4.854 L25.272 0.247 z" fill="rgb(255,255,128)">
+</path>
 </g>
 
 </g>
 </svg>
-<!-- Converted By SVG2SVGBasic Converter 2014 By Raider00321 -->

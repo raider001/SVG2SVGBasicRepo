@@ -1,12 +1,15 @@
 <?xml version="1.0"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" >
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" >
 <!--SVG content generated using Symbology Configuration Management System (SCMS)-->
 <!--Systematic Software Engineering Ltd. www.systematic.co.uk Copyright 2003 - do not remove-->
 <svg id="SUGPEVEB--*****" width="400px" height="400px" viewBox="0 0 400 400">
 <g >
-<polyline points="165,150 185,165 185,235 165,250" stroke="#FFFF815" fill="none" stroke-width="10"></polyline>
-<polyline points="235,150 215,165 215,235 235,250" stroke="#FFFF815" fill="none" stroke-width="10"></polyline>
+<polyline points="135,135 265,135 265,265 135,265 135,130" stroke="rgb(255,255,128)" fill="none" stroke-width="10">
+</polyline>
+<polyline points="165,150 185,165 185,235 165,250" stroke="rgb(255,255,128)" fill="none" stroke-width="10">
+</polyline>
+<polyline points="235,150 215,165 215,235 235,250" stroke="rgb(255,255,128)" fill="none" stroke-width="10">
+</polyline>
 
 </g>
 </svg>
-<!-- Converted By SVG2SVGBasic Converter 2014 By Raider00321 -->

@@ -1,5 +1,7 @@
 package com.raider00321.converters;
-
+/*
+ * version 0.8
+ */
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -47,9 +49,9 @@ public class Converter1P0To1P1Basic
 			addTabs();
 			RemoveSVGTags();
 			ConvertProperties();
-			ConvertRGB();
-			addComment();
-			addRecursion();
+			//ConvertRGB();
+			//addComment();
+			//addRecursion();
 			for(int k = 0; k < list.size(); k++)
 			{
 				writer.println(list.get(k));
@@ -73,7 +75,7 @@ public class Converter1P0To1P1Basic
 		{
 			
 			if(list.get(i).contains("</defs>"))
-			{
+			{   
 				map.put(mapName, tempList);
 				inDefs = false;
 			}
@@ -106,7 +108,7 @@ public class Converter1P0To1P1Basic
 				{
 					String currLine = (String)map.get(id).get(j);
 					if(currLine.contains("id=\""+id))
-					{
+					{    
 						int startProperties = list.get(i).indexOf("\"",list.get(i).indexOf(id)) + 1;
 						String properties = list.get(i).substring(startProperties,list.get(i).lastIndexOf(">"));
 						currLine = currLine.replace(">", properties + ">");
@@ -159,19 +161,18 @@ public class Converter1P0To1P1Basic
 		{
 			if(list.get(i).contains("style="))
 			{
-				list.set(i,list.get(i).replace("style=\"",""));
-				list.set(i, list.get(i).substring(0, list.get(i).lastIndexOf("\"")) + list.get(i).substring(list.get(i).lastIndexOf("\"")+1));
-				list.set(i, list.get(i).replaceAll(":","=\""));
-				list.set(i, list.get(i).replaceAll(";","\" "));
-				//list.set(i, list.get(i).substring(0, list.get(i).lastIndexOf("\"")) + list.get(i).substring(list.get(i).lastIndexOf("\"")+1));
-				String temp = ""; 
-				temp = list.get(i).substring(0,list.get(i).indexOf(">",list.get(i).indexOf("="))) + "\"";
-				
-				list.get(i).indexOf(">",list.get(i).lastIndexOf("="))
-				
-				temp = temp + list.get(i).substring(list.get(i).indexOf(">",list.get(i).lastIndexOf("=")),list.get(i).length());
-				list.set(i, temp);
-				list.set(i, list.get(i).replace(" \">", ">"));
+				String firstHalf =list.get(i).substring(0,list.get(i).indexOf("style="));
+				String secondHalf = list.get(i).substring(list.get(i).indexOf("style=")+7,list.get(i).length());
+			
+				secondHalf.replaceAll("\"", "");
+				secondHalf = secondHalf.replaceAll(":", "=\"");
+				secondHalf = secondHalf.replace(";", "\" ");
+				list.set(i, firstHalf + secondHalf);
+			}
+			else
+			{
+				list.set(i, list.get(i).replaceAll("\t\">", ">"));
+				list.set(i, list.get(i).replaceAll("\" \"", "\""));
 			}
 		}
 	}
@@ -183,20 +184,28 @@ public class Converter1P0To1P1Basic
 		for(int i = 0; i < list.size(); i++)
 		{
 			String tempList[];
-			list.get(i).replaceAll(">", ">lL");
-			tempList = list.get(i).split("lL");
-			System.out.println(list.get(i));
+			tempList = list.get(i).split(">");
 			if(tempList.length > 1)
 			{
-				
 				for(int j = tempList.length - 1; j >= 0; j--)
 				{
-					list.add(i+1,tempList[j] + ">");
+					System.out.println(tempList[j]);
+					if(tempList[j].endsWith("\""))
+					{
+						list.add(i+1,tempList[j]+">");
+					}
+					else if(tempList[j].contains("</"))
+					{
+						tempList[j] = tempList[j] + ">";
+						list.add(i+1,tempList[j]);
+					}
+					else
+					{
+						list.add(i+1,tempList[j]);
+					}
 				}
 				list.remove(i);
-
 			}
-		
 		}
 	}
 	public void addComment()

@@ -1,12 +1,15 @@
 <?xml version="1.0"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" >
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" >
 <!--SVG content generated using Symbology Configuration Management System (SCMS)-->
 <!--Systematic Software Engineering Ltd. www.systematic.co.uk Copyright 2003 - do not remove-->
 <svg id="SUGPESR---*****" width="400px" height="400px" viewBox="0 0 400 400">
 <g >
-<polyline points="145,150 200,110 200,150 255,110" fill="none" stroke="#FFFF815" stroke-width="10"></polyline>
+<g transform="translate(-76 -7) scale(1.4 1.4)">
+<path d="M140 115 C140 170 170 190 220 185" fill="none" stroke="rgb(255,255,128)" stroke-width="10">
+</path>
+<polyline points="145,150 200,110 200,150 255,110" fill="none" stroke="rgb(255,255,128)" stroke-width="10">
+</polyline>
 </g>
 
 </g>
 </svg>
-<!-- Converted By SVG2SVGBasic Converter 2014 By Raider00321 -->

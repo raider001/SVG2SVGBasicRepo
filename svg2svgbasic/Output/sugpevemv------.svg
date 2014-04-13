@@ -1,18 +1,25 @@
 <?xml version="1.0"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" >
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" >
 <!--SVG content generated using Symbology Configuration Management System (SCMS)-->
 <!--Systematic Software Engineering Ltd. www.systematic.co.uk Copyright 2003 - do not remove-->
 <svg id="SUGPEVEMV-*****" width="400px" height="400px" viewBox="0 0 400 400">
 <g >
-<line x1="270" y1="130" x2="270" y2="270" fill="none" stroke="#FFFF815" stroke-width="10"></line>
-<line x1="130" y1="265" x2="270" y2="265" fill="none" stroke="#FFFF815" stroke-width="10"></line>
-<line x1="130" y1="160" x2="202" y2="130" fill="none" stroke="#FFFF815" stroke-width="10"></line>
-<line x1="270" y1="160" x2="198" y2="130" fill="none" stroke="#FFFF815" stroke-width="10"></line>
+<line x1="130" y1="130" x2="130" y2="270" fill="none" stroke="rgb(255,255,128)" stroke-width="10">
+</line>
+<line x1="270" y1="130" x2="270" y2="270" fill="none" stroke="rgb(255,255,128)" stroke-width="10">
+</line>
+<line x1="130" y1="265" x2="270" y2="265" fill="none" stroke="rgb(255,255,128)" stroke-width="10">
+</line>
+<line x1="130" y1="160" x2="202" y2="130" fill="none" stroke="rgb(255,255,128)" stroke-width="10">
+</line>
+<line x1="270" y1="160" x2="198" y2="130" fill="none" stroke="rgb(255,255,128)" stroke-width="10">
+</line>
 
 </g>
 <g >
-		">V</text>
+<text x="200" y="240" fill="rgb(255,255,128)" text-anchor="middle" font-weight="bold" font-size="90" font-family="Arial" 
+	>
+V</text>
 
 </g>
 </svg>
-<!-- Converted By SVG2SVGBasic Converter 2014 By Raider00321 -->

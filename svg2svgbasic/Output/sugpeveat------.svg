@@ -1,14 +1,18 @@
 <?xml version="1.0"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" >
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" >
 <!--SVG content generated using Symbology Configuration Management System (SCMS)-->
 <!--Systematic Software Engineering Ltd. www.systematic.co.uk Copyright 2003 - do not remove-->
 <svg id="SUGPEVEAT-*****" width="400px" height="400px" viewBox="0 0 400 400">
 <g transform="translate(0 3) scale(1 0.9)" >
+<polyline points="200,165 120,265 280,265 200,165 200,90" fill="none" stroke="rgb(255,255,128)" stroke-width="10">
+</polyline>
 
 </g>
 <g >
-<ellipse cx="270" cy="260" rx="13" ry="13" fill="none" stroke="#FFFF815" stroke-width="10"></ellipse>
+<ellipse cx="130" cy="260" rx="13" ry="13" fill="none" stroke="rgb(255,255,128)" stroke-width="10">
+</ellipse>
+<ellipse cx="270" cy="260" rx="13" ry="13" fill="none" stroke="rgb(255,255,128)" stroke-width="10">
+</ellipse>
 
 </g>
 </svg>
-<!-- Converted By SVG2SVGBasic Converter 2014 By Raider00321 -->
